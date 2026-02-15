@@ -72,85 +72,92 @@ ai_health_companion/
 
 ---
 
-## ⚙️ Installation
+# ⚙️ Installation
 
-### 1️⃣ Clone the repository
-
+## 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/swastiverse-182/ai_health_companion.git
 cd ai_health_companion
+```
 
-2️⃣ Create virtual environment
+## 2️⃣ Create virtual environment
+```bash
 python -m venv venv
+```
 
-3️⃣ Activate environment
+## 3️⃣ Activate environment
 
-Windows
-
+**Windows**
+```bash
 venv\Scripts\activate
+```
 
-
-Mac/Linux
-
+**Mac/Linux**
+```bash
 source venv/bin/activate
+```
 
-4️⃣ Install dependencies
+## 4️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
-
-🔑 Setup API Key
-
-Create a .env file in project root:
-
-GOOGLE_API_KEY=your_api_key_here
-
-
-Get Gemini API key from Google AI Studio.
-
-▶️ Run the App
-streamlit run app.py
-
-
-App will open at:
-
-http://localhost:8501
-
-🎯 Use Cases
-
-Students tracking diet & fitness
-
-Busy professionals planning meals
-
-Beginners starting workouts
-
-Health-conscious individuals
-
-AI nutrition experimentation
-
-🔮 Future Improvements
-
-BMI & calorie tracking dashboard
-
-Weekly meal calendar
-
-Diet restrictions (vegan/keto)
-
-Progress tracking
-
-Mobile UI optimization
-
-
-⭐ Acknowledgements
-
-Google Gemini AI
-
-Streamlit
-
-Python community
-
-📜 License
-
-This project is for educational purposes.
-
+```
 
 ---
 
+# 🔑 Setup API Key
+
+Create a `.env` file in project root:
+
+```env
+GOOGLE_API_KEY=your_api_key_here
+```
+
+Get Gemini API key from **Google AI Studio**.
+
+---
+
+# ▶️ Run the App
+
+```bash
+streamlit run app.py
+```
+
+App will open at:
+
+```
+http://localhost:8501
+```
+
+---
+
+# 🎯 Use Cases
+
+- Students tracking diet & fitness  
+- Busy professionals planning meals  
+- Beginners starting workouts  
+- Health-conscious individuals  
+- AI nutrition experimentation  
+
+---
+
+# 🔮 Future Improvements
+
+- BMI & calorie dashboard  
+- Weekly meal calendar  
+- Diet types (vegan/keto)  
+- Progress tracking  
+- Mobile UI optimization  
+
+---
+
+# ⭐ Acknowledgements
+
+- Google Gemini AI  
+- Streamlit  
+- Python community  
+
+---
+
+# 📜 License
+
+This project is for educational purposes.
